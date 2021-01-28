@@ -1,0 +1,37 @@
+*,
+body,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  margin-right: 10px;
+}
+
+li {
+  font-size: 25px;
+}
+
+li:hover {
+  color: #6d6e6e;
+}
+
+/* input:checked {
+  color: #287714;
+} */
+
